@@ -97,7 +97,7 @@ img {
   cursor: pointer;
 }
 
-.contacts-links {
+.contacts-links .link {
   color: var(--accent-color-grey);
 }
 .footer-container .link {
@@ -144,7 +144,9 @@ img {
   font-weight: 700;
   padding: 10px 32px;
 }
-
+.hero-button:hover {
+  background-color: #188ce8;
+}
 .hidden {
   overflow: hidden;
   width: 1px;
@@ -230,12 +232,13 @@ img {
   width: 1600px;
   height: 648px;
   margin: 0 auto;
-  margin-bottom: 74px;
+  margin-top: 94px;
 }
 .team-section {
   padding: 94px 215px;
 }
 .team-list {
+  background-color: var(--primary-white-color);
   width: 1170px;
   height: 368px;
   display: flex;
@@ -287,6 +290,9 @@ img {
   font-style: normal;
   color: var(--primary-white-color);
   padding-top: 20px;
+}
+.adress li {
+  margin-top: 9px;
 }
 /*Portfolio*/
 
