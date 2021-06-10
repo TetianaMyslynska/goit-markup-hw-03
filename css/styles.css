@@ -114,7 +114,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1600px;
   margin: 0 auto;
 }
 
@@ -143,6 +142,7 @@ img {
   font-size: 16px;
   font-weight: 700;
   padding: 10px 32px;
+  border: none;
 }
 .hero-button:hover {
   background-color: #188ce8;
@@ -152,6 +152,10 @@ img {
   width: 1px;
   height: 1px;
   opacity: 0;
+}
+.hero-container {
+  width: 1600px;
+  margin: 0 auto;
 }
 .section-title {
   font-family: var(--main-font);
@@ -163,15 +167,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.features {
-  display: flex;
-  justify-content: space-between;
-}
 .features-container {
-  width: 1170px;
+  width: 1200px;
   height: 101px;
   margin: 0 auto;
   margin: 94px 215px;
+  display: flex;
+  justify-content: space-between;
 }
 .features-list li:not(:last-child) {
   margin-right: 30px;
@@ -206,7 +208,7 @@ img {
 }
 
 .activities-container {
-  width: 1170px;
+  width: 1200px;
   height: 386px;
   margin: 0 auto;
   margin: 0 215px 20px 215px;
@@ -229,7 +231,6 @@ img {
 }
 .team-container {
   background-color: #f5f4fa;
-  width: 1600px;
   height: 648px;
   margin: 0 auto;
   margin-top: 94px;
